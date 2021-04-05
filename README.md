@@ -19,21 +19,24 @@
 
 Zakładamy ze wszystkie składniki komponenty infrastrukturalne (vmware / aws) już możliwości i mamy do nich pełen dostęp cli / api.
 
-# Quick Start
+# Początek
+### Dziękuje za wyzwanie! Poniżej znajduje się instrukcja do zadań. 
+
+
 ## Pierwsze Wyzwanie
 W folderze zadań:
-1. docker build -t task1 .
-2. docker run -dp 8080:80 task1
-3. curl localhost:8080
+1. $ `docker build -t task1 .`
+2. $ `docker run -dp 8080:80 task1`
+3. $ `curl localhost:8080`
 
 ## Drugie Wyzwanie
 Uruchom następujące kroki w folderze:
-1. Update vSphere connection details in vars.yml
-2. run playbook
+1. Zaktualizuj szczegóły połączenia vSphere w vars.yml
+2. Run playbook `playbook-VM.yaml`
 
 ## Trzecie Wyzwanie
 Uruchom następujące kroki w folderze: :)
-1. create_tls.sh
-2. terraform init
-3. terraform plan
-4. terraform apply
+1. $ `create_tls.sh`
+2. $ `terraform init`
+3. $ `terraform plan`
+4. $ `terraform apply`
