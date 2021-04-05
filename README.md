@@ -1,6 +1,5 @@
-# Interview Task
+## Wyzwanie - Devops Engineer
 
-Task Instructions
 1. Proszę utworzyć Dockerfile za pomocą którego stworzymy kontener który:
 - Jako base image będzie używał Ubuntu 20.04
 - Uruchomia się na nim dodatkowo  Nginx z dflt stroną główną
@@ -18,21 +17,22 @@ Task Instructions
 - maszyny podpinamy do ALB
 - na ALB dodatkowo konfigurujemy redirect z http na https
 
+Zakładamy ze wszystkie składniki komponenty infrastrukturalne (vmware / aws) już możliwości i mamy do nich pełen dostęp cli / api.
 
 # Quick Start
-## Task 1
-In the task folder:
+## Pierwsze Wyzwanie
+W folderze zadań:
 1. docker build -t task1 .
 2. docker run -dp 80:8080 task1
 3. curl localhost:8080
 
-## Task 2
-Run the following steps in the folder:
+## Drugie Wyzwanie
+Uruchom następujące kroki w folderze:
 1. Update vSphere connection details in vars.yml
 2. run playbook
 
-## Task 3
-Run the following steps in the folder:
+## Trzecie Wyzwanie
+Uruchom następujące kroki w folderze: :)
 1. create_tls.sh
 2. terraform init
 3. terraform plan
