@@ -23,7 +23,7 @@ Zakładamy ze wszystkie składniki komponenty infrastrukturalne (vmware / aws) j
 ## Pierwsze Wyzwanie
 W folderze zadań:
 1. docker build -t task1 .
-2. docker run -dp 80:8080 task1
+2. docker run -dp 8080:80 task1
 3. curl localhost:8080
 
 ## Drugie Wyzwanie

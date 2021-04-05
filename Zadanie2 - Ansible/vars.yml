@@ -1,0 +1,5 @@
+---
+vcenter_hostname: CHANGEME
+vcenter_username: CHANGEME
+vcenter_password: CHANGEME
+esxi_hostname: CHANGEME
